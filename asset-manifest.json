@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bottrackrweb/static/css/main.478df130.css",
+    "main.js": "/bottrackrweb/static/js/main.49941c2b.js",
+    "service-worker.js": "/bottrackrweb/service-worker.js",
+    "index.html": "/bottrackrweb/index.html",
+    "main.478df130.css.map": "/bottrackrweb/static/css/main.478df130.css.map",
+    "main.49941c2b.js.map": "/bottrackrweb/static/js/main.49941c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.478df130.css",
+    "static/js/main.49941c2b.js"
+  ]
+}
