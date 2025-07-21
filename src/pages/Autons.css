@@ -1,0 +1,75 @@
+.autons-bg {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #232526 0%, #414345 50%, #0f2027 100%);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autons-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px #00f2fe, 0 0 40px #4facfe;
+  animation: popIn 1s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.autons-list {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.auton-card {
+  background: rgba(20, 20, 40, 0.95);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 24px 20px 20px 20px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  animation: cardFadeIn 0.8s cubic-bezier(.68,-0.55,.27,1.55) both;
+}
+
+.auton-card:hover {
+  background: #00f2fe33;
+  transform: scale(1.07) rotate(1deg);
+  box-shadow: 0 0 32px #00f2fe99, 0 0 64px #4facfe66;
+}
+
+@keyframes cardFadeIn {
+  0% { opacity: 0; transform: translateY(40px) scale(0.95); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.auton-video {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 16px #00f2fe44;
+}
+
+.auton-name {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0.2rem 0;
+  text-shadow: 0 0 10px #00f2fe99;
+}
+
+.auton-team {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #4facfe;
+}
+
+.auton-desc {
+  color: #b2bec3;
+  font-size: 1rem;
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+} 
